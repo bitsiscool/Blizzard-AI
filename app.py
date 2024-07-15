@@ -25,4 +25,4 @@ def ask():
     return jsonify({'answer': answer})
 
 if __name__ == '__main__':
-    app.run(debug=flase,host='0.0.0.0')
+    app.run(debug=Flase,host='0.0.0.0')
