@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Replace 'YOUR_APP_ID' with your actual WolframAlpha API key
-WOLFRAMALPHA_APP_ID = '8HUP3L-RW9H6TXQP5'
+WOLFRAMALPHA_APP_ID = 'UPXUT3-X27J855E66'
 
 def ask_wolframalpha(query):
     url = f"http://api.wolframalpha.com/v1/result?appid={WOLFRAMALPHA_APP_ID}&i={query}"
